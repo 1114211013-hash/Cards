@@ -1,67 +1,113 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-TW">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>最新消息</title>
+
+    <!-- 1. 引入 Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
 <body>
-    <section class="card" style="max-width: 320px">
-        <img src="https://picsum.photos/id/106/500/500" class="card-img-top" alt="...">
-        <div class="card-body">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s
-                content.</p>
-            <a href="#" class="btn-solid theme-primary">Go somewhere</a>
+
+    <!-- 2. 使用 Container 與網格系統 -->
+    <div class="container mt-5">
+        <h2 class="text-center mb-4">最新消息</h2>
+
+        <div class="row g-4"> <!-- row 代表一列，g-4 代表卡片之間的間距 -->
+
+            <!-- 卡片 1 -->
+            <div class="col-12 col-md-6 col-lg-3"> <!-- 手機版單排，平板雙排，電腦版四排 -->
+                <section class="card h-100"> <!-- h-100 讓同一排的卡片高度一致 -->
+                    <img src="https://picsum.photos/id/327/500/500" class="card-img-top" alt="圖片">
+                    <div class="card-body">
+                        <h4 class="card-title">Card title</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card’s content.</p>
+                        <!-- 3. 修正按鈕樣式為 btn btn-primary -->
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </section>
+            </div>
+
+            <!-- 卡片 2  -->
+            <div class="col-12 col-md-6 col-lg-3">
+                <section class="card h-100">
+                    <img src="https://picsum.photos/id/364/500/500" class="card-img-top" alt="圖片">
+                    <div class="card-body">
+                        <h4 class="card-title">Card title</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card’s content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </section>
+            </div>
+
+            <!-- 卡片 3  -->
+            <div class="col-12 col-md-6 col-lg-3">
+                <section class="card h-100">
+                    <img src="https://picsum.photos/id/82/500/500" class="card-img-top" alt="圖片">
+                    <div class="card-body">
+                        <h4 class="card-title">Card title</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card’s content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </section>
+            </div>
+            <!-- 卡片 4  -->
+            <div class="col-12 col-md-6 col-lg-3">
+                <section class="card h-100">
+                    <img src="https://picsum.photos/id/110/500/500" class="card-img-top" alt="圖片">
+                    <div class="card-body">
+                        <h4 class="card-title">Card title</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card’s content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </section>
+            </div>
+            <!-- 卡片 3  -->
+            <div class="col-12 col-md-6 col-lg-3">
+                <section class="card h-100">
+                    <img src="https://picsum.photos/id/82/500/500" class="card-img-top" alt="圖片">
+                    <div class="card-body">
+                        <h4 class="card-title">Card title</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card’s content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </section>
+            </div>
+            <!-- 卡片 4 -->
+            <div class="col-12 col-md-6 col-lg-3">
+                <section class="card h-100">
+                    <img src="https://picsum.photos/id/274/500/500" class="card-img-top" alt="圖片">
+                    <div class="card-body">
+                        <h4 class="card-title">Card title</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card’s content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </section>
+            </div>
+            <!-- 卡片 5 -->
+            <div class="col-12 col-md-6 col-lg-3">
+                <section class="card h-100">
+                    <img src="https://picsum.photos/id/216/500/500" class="card-img-top" alt="圖片">
+                    <div class="card-body">
+                        <h4 class="card-title">Card title</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card’s content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </section>
+            </div>
         </div>
-    </section>
-    <section class="card" style="max-width: 320px">
-        <img src="https://picsum.photos/id/107/500/500" class="card-img-top" alt="...">
-        <div class="card-body">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s
-                content.</p>
-            <a href="#" class="btn-solid theme-primary">Go somewhere</a>
-        </div>
-    </section>
-    <section class="card" style="max-width: 320px">
-        <img src="https://picsum.photos/id/108/500/500" class="card-img-top" alt="...">
-        <div class="card-body">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s
-                content.</p>
-            <a href="#" class="btn-solid theme-primary">Go somewhere</a>
-        </div>
-    </section>
-    <section class="card" style="max-width: 320px">
-        <img src="https://picsum.photos/id/109/500/500" class="card-img-top" alt="...">
-        <div class="card-body">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s
-                content.</p>
-            <a href="#" class="btn-solid theme-primary">Go somewhere</a>
-        </div>
-    </section>
-    <section class="card" style="max-width: 320px">
-        <img src="https://picsum.photos/id/111/500/500" class="card-img-top" alt="...">
-        <div class="card-body">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s
-                content.</p>
-            <a href="#" class="btn-solid theme-primary">Go somewhere</a>
-        </div>
-    </section>
-    <section class="card" style="max-width: 320px">
-        <img src="https://picsum.photos/id/112/500/500" class="card-img-top" alt="...">
-        <div class="card-body">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s
-                content.</p>
-            <a href="#" class="btn-solid theme-primary">Go somewhere</a>
-        </div>
-    </section>
+    </div>
+
 </body>
 
 </html>
